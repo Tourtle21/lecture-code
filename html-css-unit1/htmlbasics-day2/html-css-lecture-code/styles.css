@@ -1,0 +1,58 @@
+* {
+    font-family: sans-serif;
+}
+
+h2 {
+    line-height: 30px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.float-box {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    float: right;
+}
+
+span {
+    color: goldenrod;
+}
+
+section {
+    background-image: url('https://i.kym-cdn.com/photos/images/original/001/516/899/f31.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+button {
+    background-color: blue;
+    color: white;
+}
+
+button:hover {
+    background-color: green;
+}
+
+.ordered-list-item {
+    color: blueviolet;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#main-image {
+    width: 200px;
+}
+#content-box {
+    height: 50px;
+    width: 50px;
+    border: 5px solid black;
+}
+
+#border-box {
+    height: 50px;
+    width: 50px;
+    box-sizing: border-box;
+    border: 5px solid black;
+}
